@@ -9,39 +9,44 @@
 </head>
 <body>
 <section class="container">
-    <header>
-        <section id="interval-generator">
-            <form id="interval-input">
-                <h2>Добавить интервал</h2>
-                <input type="text"/>
-                <input type="text"/>
-                <button class="addButton"></button>
-            </form>
-            <ul class="interval-gallery">
-                <li class="gallery-item"></li>
-                <li class="gallery-item"></li>
-                <li class="gallery-item"></li>
-            </ul>
-        </section>
+    <header class="main-header">
+        <h1>Давайте считать интервалы!</h1>
     </header>
-    <main>
-        <section id="input">
-            <h2>Введите выражение</h2>
-            <input class='inputExp' type="text"/>
-        </section>
-        <section id="output">
-            <h2>Результат</h2>
-            <div class="output-block">
-                <div class="chart"></div>
-                <div class="result-block">
-                    <div class="result"></div>
-                    <button id="start">Посчитать</button>
+    <section class="main-content">
+        <header>
+            <section id="interval-generator">
+                <form id="interval-input">
+                    <h2>Добавить интервал</h2>
+                    <input type="text"/>
+                    <input type="text"/>
+                    <button class="addButton"></button>
+                </form>
+                <ul class="interval-gallery">
+                    <li class="gallery-item"></li>
+                    <li class="gallery-item"></li>
+                    <li class="gallery-item"></li>
+                </ul>
+            </section>
+        </header>
+        <main>
+            <section id="input">
+                <h2>Введите выражение</h2>
+                <input class='inputExp' type="text"/>
+            </section>
+            <section id="output">
+                <h2>Результат</h2>
+                <div class="output-block">
+                    <div class="chart"></div>
+                    <div class="result-block">
+                        <div class="result"></div>
+                        <button id="start">Посчитать</button>
+                    </div>
                 </div>
-            </div>
-        </section>
+            </section>
         </main>
+    </section>
     <footer>
-
+        <a href="http://vk.com/armen_petrosyan">ArmenPetrosyan</a> @ 2015
     </footer>
     <script src="js/controller.js"></script>
 </section>
