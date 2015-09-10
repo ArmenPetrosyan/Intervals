@@ -5,9 +5,44 @@
     <title>Interval calculator</title>
     <link rel="stylesheet" href="css/style.css"/>
     <script src="js/jquery-2.1.4.js"></script>
+    <script src="js/Interval.js"></script>
 </head>
 <body>
 <section class="container">
+    <header>
+        <section id="interval-generator">
+            <form id="interval-input">
+                <h2>Добавить интервал</h2>
+                <input type="text"/>
+                <input type="text"/>
+                <button class="addButton"></button>
+            </form>
+            <ul class="interval-gallery">
+                <li class="gallery-item"></li>
+                <li class="gallery-item"></li>
+                <li class="gallery-item"></li>
+            </ul>
+        </section>
+    </header>
+    <main>
+        <section id="input">
+            <h2>Введите выражение</h2>
+            <input class='inputExp' type="text"/>
+        </section>
+        <section id="output">
+            <h2>Результат</h2>
+            <div class="output-block">
+                <div class="chart"></div>
+                <div class="result-block">
+                    <div class="result"></div>
+                    <button id="start">Посчитать</button>
+                </div>
+            </div>
+        </section>
+        </main>
+    <footer>
+
+    </footer>
     <script src="js/controller.js"></script>
 </section>
 </body>
