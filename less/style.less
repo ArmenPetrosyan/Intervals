@@ -1,6 +1,10 @@
 @primary: #ff6f2d;
 @import url(//fonts.googleapis.com/css?family=Open+Sans:400,700,600,300);
 
+* {
+    box-sizing: border-box;
+}
+
 body {
     background: #E9E9E9;
     font-family: 'Open Sans', sans-serif;
@@ -42,6 +46,59 @@ h2{
     background: #fff;
     padding: 30px 100px;
     box-shadow:2px 2px 4px #c4c8c7;
+
+    #interval-input {
+        display: inline-block;
+        background: @primary;
+        position: relative;
+        padding: 10px;
+
+        h2 {
+            position: absolute;
+            top: -35px;
+            left: 0;
+        }
+
+        input {
+            width: 40px;
+            height: 40px;
+            padding: 5px;
+            text-align: center;
+            font-size: 20px;
+        }
+
+        .addButton {
+            position: absolute;
+            right: -26px;
+            top: 0;
+            border: none;
+
+            &:after {
+                content: '';
+                position: absolute;
+                top: 0;
+                left: 0;
+                width: 0;
+                height: 0;
+                border-style: solid;
+                border-width: 30.5px 0 30.5px 50px;
+                -moz-transform: scale(1.0001);
+                border-color: transparent transparent transparent @primary;
+            }
+        }
+    }
+
+    .interval-gallery {
+        display: inline-block;
+        margin-left: 20px;
+
+        li {
+            width: 40px;
+            height: 40px;
+            background: #000;
+            display: inline-block;
+        }
+    }
 
     #input{
         .inputExp {

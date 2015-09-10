@@ -1,4 +1,7 @@
 @import url(//fonts.googleapis.com/css?family=Open+Sans:400,700,600,300);
+* {
+  box-sizing: border-box;
+}
 body {
   background: #E9E9E9;
   font-family: 'Open Sans', sans-serif;
@@ -34,6 +37,52 @@ h2 {
   background: #fff;
   padding: 30px 100px;
   box-shadow: 2px 2px 4px #c4c8c7;
+}
+.main-content #interval-input {
+  display: inline-block;
+  background: #ff6f2d;
+  position: relative;
+  padding: 10px;
+}
+.main-content #interval-input h2 {
+  position: absolute;
+  top: -35px;
+  left: 0;
+}
+.main-content #interval-input input {
+  width: 40px;
+  height: 40px;
+  padding: 5px;
+  text-align: center;
+  font-size: 20px;
+}
+.main-content #interval-input .addButton {
+  position: absolute;
+  right: -26px;
+  top: 0;
+  border: none;
+}
+.main-content #interval-input .addButton:after {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 30.5px 0 30.5px 50px;
+  -moz-transform: scale(1.0001);
+  border-color: transparent transparent transparent #ff6f2d;
+}
+.main-content .interval-gallery {
+  display: inline-block;
+  margin-left: 20px;
+}
+.main-content .interval-gallery li {
+  width: 40px;
+  height: 40px;
+  background: #000;
+  display: inline-block;
 }
 .main-content #input .inputExp {
   width: 100%;
