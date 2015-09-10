@@ -1,6 +1,4 @@
 <h1>Intervals</h1>
-<hr>
 Приложение для выполнения действий над интервалами доверия
-<hr>
 <br>
-<i>Последний вариант макета можно находится <a href="https://moqups.com/thebraincrasher/boNhTE9d">здесь</a></i>
+<i>Последний вариант макета находится <a href="https://moqups.com/thebraincrasher/boNhTE9d">здесь</a></i>
