@@ -14,6 +14,9 @@ body {
 body ul {
   list-style-type: none;
 }
+button {
+  transition: .2s;
+}
 h1 {
   font-size: 24px;
   text-transform: uppercase;
@@ -26,6 +29,7 @@ h2 {
   font-size: 14px;
   font-weight: 400;
   color: #ff6f2d;
+  margin-bottom: 10px;
 }
 .container {
   width: 1170px;
@@ -73,10 +77,13 @@ h2 {
   height: 30px;
   line-height: 20px;
   border-radius: 50%;
-  box-shadow: 0px 0px 10px #000;
+  box-shadow: 0px 0px 10px #7A7979;
   z-index: 10;
   background: #3db3ff;
   color: #fff;
+}
+.main-content #interval-form .addButton:hover {
+  background: #0a9fff;
 }
 .main-content #interval-form:after {
   content: '';
@@ -97,8 +104,11 @@ h2 {
   width: 60px;
   height: 60px;
   border-radius: 50%;
-  background: #000;
+  background: #f46c43;
   display: inline-block;
+}
+.main-content #input-section {
+  margin-bottom: 30px;
 }
 .main-content #input-section .inputExp {
   width: 100%;
@@ -110,6 +120,16 @@ h2 {
   color: #fff;
   text-transform: uppercase;
   font-size: 20px;
+}
+.main-content #output-section .output-block .chart {
+  display: inline-block;
+  width: 50%;
+  min-height: 300px;
+  border: 1px dashed #3db3ff;
+  border-radius: 5px;
+}
+.main-content #output-section .output-block .result-block {
+  display: inline-block;
 }
 footer {
   font-size: 12px;
