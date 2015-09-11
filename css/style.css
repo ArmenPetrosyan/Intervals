@@ -16,12 +16,13 @@ body ul {
 }
 button {
   transition: .2s;
+  cursor: pointer;
 }
 h1 {
   font-size: 24px;
   text-transform: uppercase;
   background: #fff;
-  color: #3db3ff;
+  color: #ffbb0f;
   display: inline-block;
   padding: 5px;
 }
@@ -36,7 +37,7 @@ h2 {
   margin: 30px auto;
 }
 .main-header {
-  background: #3db3ff;
+  background: #ffbb0f;
   padding: 20px 100px;
   color: #fff;
   margin-bottom: 10px;
@@ -52,9 +53,10 @@ h2 {
 }
 .main-content #interval-form {
   display: inline-block;
-  background: #3db3ff;
+  background: #ffbb0f;
   position: relative;
   padding: 10px;
+  padding-right: 20px;
 }
 .main-content #interval-form h2 {
   position: absolute;
@@ -67,6 +69,8 @@ h2 {
   padding: 5px;
   text-align: center;
   font-size: 20px;
+  border: none;
+  border-radius: 5px;
 }
 .main-content #interval-form .addButton {
   position: absolute;
@@ -79,11 +83,11 @@ h2 {
   border-radius: 50%;
   box-shadow: 0px 0px 10px #7A7979;
   z-index: 10;
-  background: #3db3ff;
+  background: #ffbb0f;
   color: #fff;
 }
 .main-content #interval-form .addButton:hover {
-  background: #0a9fff;
+  background: #db9d00;
 }
 .main-content #interval-form:after {
   content: '';
@@ -114,7 +118,7 @@ h2 {
   width: 100%;
   height: 50px;
   padding: 0 20px;
-  background: #dbdfde;
+  background: #ffbb0f;
   border-radius: 5px;
   border: none;
   color: #fff;
@@ -123,16 +127,19 @@ h2 {
   text-transform: uppercase;
   font-size: 20px;
   box-shadow: inset 0 0 3px #8e8e8e;
+  outline: none;
 }
 .main-content #output-section .output-block .chart {
   display: inline-block;
   width: 50%;
   min-height: 300px;
-  border: 1px dashed #3db3ff;
+  border: 1px dashed #ffbb0f;
   border-radius: 5px;
 }
 .main-content #output-section .output-block .result-block {
   display: inline-block;
+  vertical-align: top;
+  float: right;
 }
 footer {
   font-size: 12px;
@@ -140,5 +147,5 @@ footer {
   margin-top: 15px;
 }
 footer a {
-  color: #3db3ff;
+  color: #ffbb0f;
 }
