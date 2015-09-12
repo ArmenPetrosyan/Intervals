@@ -126,7 +126,8 @@ h2{
             width: 60px;
             height: 60px;
             border-radius: 50%;
-            background: #f46c43;
+            border: 1px dashed @primary;
+//            background: #f46c43;
             display: inline-block;
         }
     }
@@ -165,6 +166,25 @@ h2{
                 display: inline-block;
                 vertical-align: top;
                 float: right;
+                width: 50%;
+
+                .result {
+                    float: right;
+                    width: 80%;
+                    height: 100px;
+                    background: @primary;
+                    border-radius: 5px;
+                }
+
+                #start {
+                    float: right;
+                    width: 80%;
+                    height: 60px;
+                    background: transparent;
+                    border: 2px solid @primary;
+                    border-radius: 5px;
+                    margin-top: 100px;
+                }
             }
         }
     }
