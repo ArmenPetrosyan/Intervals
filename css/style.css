@@ -110,6 +110,7 @@ h2 {
   border-radius: 50%;
   border: 1px dashed #ffbb0f;
   display: inline-block;
+  margin-right: 10px;
 }
 .main-content #input-section {
   margin-bottom: 30px;
