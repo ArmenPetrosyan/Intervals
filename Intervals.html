@@ -5,6 +5,7 @@
     <title>Interval calculator</title>
     <link rel="stylesheet" href="css/style.css"/>
     <script src="js/jquery-2.1.4.js"></script>
+    <script src="js/snap.svg.js"></script>
     <script src="js/Interval.js"></script>
 </head>
 <body>
@@ -32,7 +33,9 @@
             <section id="output-section">
                 <h2>Result</h2>
                 <div class="output-block">
-                    <canvas class="chart"></canvas>
+                    <svg id='chart' version="1.1" xmlns="http://www.w3.org/2000/svg">
+
+                    </svg>
                     <div class="result-block">
                         <div class="result"></div>
                         <button id="start">GO!</button>
