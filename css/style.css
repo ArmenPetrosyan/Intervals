@@ -22,7 +22,7 @@ h1 {
   font-size: 24px;
   text-transform: uppercase;
   background: #fff;
-  color: #41dcff;
+  color: #fd7826;
   display: inline-block;
   padding: 5px;
 }
@@ -37,7 +37,7 @@ h2 {
   margin: 30px auto;
 }
 .main-header {
-  background: #41dcff;
+  background: #fd7826;
   padding: 20px 100px;
   color: #fff;
   margin-bottom: 10px;
@@ -53,7 +53,7 @@ h2 {
 }
 .main-content #interval-form {
   display: inline-block;
-  background: #41dcff;
+  background: #fd7826;
   position: relative;
   padding: 10px;
   padding-right: 20px;
@@ -83,12 +83,12 @@ h2 {
   border-radius: 50%;
   box-shadow: 0px 0px 10px #bfbebe;
   z-index: 10;
-  background: #41dcff;
+  background: #fd7826;
   color: #fff;
   outline: none;
 }
 .main-content #interval-form .addButton:hover {
-  background: #0ed3ff;
+  background: #ee5c02;
   outline: none;
 }
 .main-content #interval-form:after {
@@ -110,7 +110,7 @@ h2 {
   width: 60px;
   height: 60px;
   border-radius: 50%;
-  border: 1px dashed #41dcff;
+  border: 1px dashed #fd7826;
   display: inline-block;
   margin-right: 10px;
 }
@@ -133,7 +133,7 @@ h2 {
   display: inline-block;
   width: 50%;
   min-height: 300px;
-  border: 1px dashed #41dcff;
+  border: 1px dashed #fd7826;
   border-radius: 5px;
 }
 .main-content #output-section .output-block .result-block {
@@ -146,7 +146,7 @@ h2 {
   float: right;
   width: 80%;
   height: 100px;
-  background: #41dcff;
+  background: #fd7826;
   border-radius: 5px;
 }
 .main-content #output-section .output-block .result-block #start {
@@ -154,12 +154,12 @@ h2 {
   width: 80%;
   height: 60px;
   background: transparent;
-  border: 2px solid #41dcff;
+  border: 2px solid #fd7826;
   border-radius: 5px;
   margin-top: 100px;
 }
 .main-content #output-section .output-block .result-block #start:hover {
-  background: #41dcff;
+  background: #fd7826;
 }
 footer {
   font-size: 12px;
@@ -167,5 +167,5 @@ footer {
   margin-top: 15px;
 }
 footer a {
-  color: #41dcff;
+  color: #fd7826;
 }

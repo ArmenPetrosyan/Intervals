@@ -1,14 +1,14 @@
 (function($){
-    var intIndex = [],
-        ind = 0;
+
     function IntervalStorage(){
+        var intervalContainer = [];
+
         return {
             'addInterval': function(min, max){
-                localStorage[ind++] = [min, max];
+                intervalContainer.push(new Interval(min, max));
             }
         }
     }
-
 
     var $addBtn = $('.addButton'),
         $gallery = $('.interval-gallery'),
@@ -57,36 +57,5 @@
     });
     //////////////////////////////////////
 
-    function bezier(vector){
-        var l = vector.length / 2,
-            t = [0,.1,.2,.3,.4,.5,.6,.7,.8,.9,1]
 
-        var func = function(vector,tt){
-            var res = [];
-
-            for(var i=0; i<2; i++){
-                var x1 = vector[i],
-                    y1 = vector[i+1];
-
-                for (var j=0; j<vector.length; j++){
-                    //res[i] = Math.pow((1−t),3)*x
-                }
-
-            }
-
-            return res;
-        }
-
-        switch (l) {
-            case 2:
-                break;
-            case 3: break;
-            case 4: break;
-            default: throw "wrong params";
-        }
-
-        return func(vector,t);
-    }
-
-    //bezier([1,2,3]);
 })(jQuery);
