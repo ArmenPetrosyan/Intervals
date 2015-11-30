@@ -198,5 +198,6 @@ function IntervalHandler(){
            return new Interval(Math.min(A.numbers[0], B.numbers[0]), Math.min(A.numbers[1], B.numbers[1]));
        }
    }
+    //adadadadada
 }
 
